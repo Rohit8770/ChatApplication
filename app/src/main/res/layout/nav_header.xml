@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="@dimen/_15ssp"
+        android:src="@drawable/user_icon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rohit Malviya"
+        android:layout_marginLeft="@dimen/_10ssp"
+        android:background="@null"
+        android:textSize="@dimen/_20ssp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rohit123@gmail.com"
+        android:background="@null"
+        android:layout_marginLeft="@dimen/_10ssp"
+        android:textSize="@dimen/_15ssp"/>
+
+
+</LinearLayout>
